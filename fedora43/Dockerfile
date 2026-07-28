@@ -18,3 +18,6 @@ RUN dnf -y update && \
         pkgconfig \
         rpm-build && \
     dnf clean all
+
+ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+
